@@ -12,4 +12,3 @@ importer = Importer([repo], mock_repo)
 # my work email
 importer.set_author(['kennydukor@gmail.com', 'Kenechi.Dukor@wapic.com'])
 importer.import_repository()
-print("xjwbk")
