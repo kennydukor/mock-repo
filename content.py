@@ -3,7 +3,7 @@ import git
 from git_contributions_importer import *
 
 # Your private repo or Bitbucket repo
-repo = git.Repo("C:\WAPXCONNECT\middleware")
+repo = git.Repo("C:\WAPXCONNECT\wapicins")
 # Your mock repo
 mock_repo = git.Repo("C:\WAPXCONNECT\mock-repo")
 importer = Importer([repo], mock_repo)
