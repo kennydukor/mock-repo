@@ -10,5 +10,5 @@ importer = Importer([repo], mock_repo)
 # I use both my personal email and work email here,
 # Since the private repo uses work email, and Github profiles uses
 # my work email
-importer.set_author(['kennydukor@gmail.com', 'toyyibazeez@gmail.com'])
+importer.set_author(['kennydukor@gmail.com', 'Kenechi.Dukor@wapic.com'])
 importer.import_repository()
