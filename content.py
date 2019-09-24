@@ -3,7 +3,7 @@ import git
 from git_contributions_importer import *
 
 # Your private repo or Bitbucket repo
-repo = git.Repo("C:\WAPXCONNECT\wapicins")
+repo = git.Repo("C:\WAPXCONNECT\wapicweb")
 # Your mock repo
 mock_repo = git.Repo("C:\WAPXCONNECT\mock-repo")
 importer = Importer([repo], mock_repo)
@@ -11,5 +11,4 @@ importer = Importer([repo], mock_repo)
 # Since the private repo uses work email, and Github profiles uses
 # my work email
 importer.set_author(['kennydukor@gmail.com', '32472950+kennydukor@users.noreply.github.com'])
-print("ipffp")
-print("yyfak")
+importer.import_repository()
